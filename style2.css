@@ -1,0 +1,246 @@
+body{
+    background-image: url(images/background1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    
+}
+
+.topbar{
+    
+    width: 100vw;
+    height: 120px;
+    margin-top: -8px;
+    margin-left: -8px;
+    background-color: rgba(0, 0, 0, 0.671);
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.575);
+}
+
+.titleTopbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -70px;
+    color: white;
+    font-family: Poiret One;
+    letter-spacing: 2px;
+    font-size: 33px;
+}
+
+.logoDiv{
+    display: flex;
+    justify-content: left;
+}
+
+.logoBienalTopbar{
+    margin-top: 13px;
+    margin-left: 10px;
+    width: 270px;
+   
+}
+
+.divCadastro{
+    display: flex;
+    justify-content: center ;
+}
+
+.fundoCadastro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 45px;
+    width: 570px;
+    height: 800px;
+    background-color: rgba(7, 7, 7, 0.795);
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(29, 29, 29, 0.575);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.575);
+    border-radius: 15px;
+}
+
+.tituloCadastro{
+    color: white;
+    font-family: Poiret One;
+}
+
+.labelNome{
+    margin-left: -330px;
+    margin-top: 0px;
+    color: white;
+    font-size: 20px;
+    font-family: Poppins;
+}
+
+#primeiroNome{
+    margin-top: 5px;
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    padding-left: 10px;
+    font-family: Poppins;
+    background-color: rgba(12, 12, 12, 0.712);
+    border: 2px solid rgba(29, 29, 29, 0.575);
+    outline: none;
+}
+
+.labelSobrenome{
+    margin-left: -280px;
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+    font-family: Poppins;
+}
+
+#sobrenome{
+    margin-top: 5px;
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    padding-left: 10px;
+    font-family: Poppins;
+    background-color: rgba(12, 12, 12, 0.712);
+    border: 2px solid rgba(29, 29, 29, 0.575);
+    outline: none;
+}
+
+.labelEmail{
+    margin-left: -250px;
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+    font-family: Poppins;
+}
+
+#email{
+    margin-top: 5px;
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    padding-left: 10px;
+    font-family: Poppins;
+    background-color: rgba(12, 12, 12, 0.712);
+    border: 2px solid rgba(29, 29, 29, 0.575);
+    outline: none;
+}
+
+.labelCPF{
+    margin-left: -355px;
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+    font-family: Poppins;
+}
+
+#cpf{
+    margin-top: 5px;
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    padding-left: 10px;
+    font-family: Poppins;
+    background-color: rgba(12, 12, 12, 0.712);
+    border: 2px solid rgba(29, 29, 29, 0.575);
+    outline: none;
+}
+
+.labelNcartao{
+    margin-left: -290px;
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+    font-family: Poppins;
+}
+
+#cartao{
+    margin-top: 5px;
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    padding-left: 10px;
+    font-family: Poppins;
+    background-color: rgba(12, 12, 12, 0.712);
+    border: 2px solid rgba(29, 29, 29, 0.575);
+    outline: none;
+}
+
+.cartaoDiv{
+    margin-top: 7px;
+}
+
+#datacartao{
+    text-align: center;
+    margin-top: 5px;
+    margin-right: 10px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    font-family: Poppins;
+    background-color: rgba(12, 12, 12, 0.712);
+    border: 2px solid rgba(29, 29, 29, 0.575);
+    outline: none;
+}
+
+#cvv{
+    text-align: center;
+    margin-top: 5px;
+    margin-right: 10px;
+    width: 80px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    font-family: Poppins;
+    background-color: rgba(12, 12, 12, 0.712);
+    border: 2px solid rgba(29, 29, 29, 0.575);
+    outline: none;
+}
+
+#parcelas{
+    margin-top: 5px;
+    width: 140px;
+    height: 55px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    padding-left: 10px;
+    font-family: Poppins;
+    background-color: rgba(12, 12, 12, 0.712);
+    border: 2px solid rgba(29, 29, 29, 0.575);
+    outline: none;
+}
+
+#buttonEnviar{
+    margin-top: 20px;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    font-family: Poppins;
+    font-weight: 570;
+    border-radius: 10px;
+    background-color: rgb(207, 207, 207) ;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
